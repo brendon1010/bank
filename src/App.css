@@ -1,10 +1,75 @@
 .App {
+  /*change background color*/
   text-align: center;
+  background-color: #e4e4e4;
+}
+
+.options{
+  /*make each button equal length*/
+  width: 35vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.bal {
+  /*change balance text alignment*/
+  text-align: left;
+  padding: 100px;
+}
+
+.balText {
+  /*change balance text font and color*/
+  font-family: "Dhurjati", sans-serif;
+  font-size: 80px;
+  color: #00303d;
+}
+
+.stat {
+  /*change background color of options section*/
+  padding: 100px;
+  background-color: white;
+}
+
+.cash {
+  /*change balance color*/
+  color: green;
+}
+
+.icon {
+  /*change size of icons in top bar*/
+  width: 20px;
+}
+
+.appName{
+  /*change size and font of the app name*/
+  font-family: "Dhurjati", sans-serif;
+  font-size: larger;
+}
+
+.bord{
+  /*give each item a border in the nav list*/
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 25px;
+  background-color: white;
+}
+
+.logo {
+  /*change size of the bank logo*/
+  width: 20vh;
+}
+
+.select {
+  /*make the balance option in the topbar bold*/
+  font-weight: bold;
+}
+
+.topItem {
+  /*change padding of all top items*/
+  padding: 35px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
