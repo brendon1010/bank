@@ -5,7 +5,6 @@ import Deposit from "./Deposit";
 import Withdraw from "./Withdraw";
 import AddInterest from "./AddInterest";
 import Charges from "./Charges";
-import NavBar from "./NavBar";
 import { Container, Col, Row, Button } from "react-bootstrap";
 
 export default function Layout() {
@@ -86,7 +85,6 @@ export default function Layout() {
 
   return (
     <div>
-      <NavBar />
       <br />
       <br />
       {show && <h1>{amount}</h1>}
